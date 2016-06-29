@@ -14,6 +14,7 @@ public class BetterTextView extends TextView {
     private boolean scaleWithinBounds;
     private String typefaceAsset;
     private Context context;
+    private final String FONT_DIRECTORY = "fonts/";
 
     public BetterTextView(Context context) {
         super(context);
@@ -45,7 +46,7 @@ public class BetterTextView extends TextView {
 
         try {
             scaleWithinBounds = typedArray.getBoolean(R.styleable.betterTextViewAttrs_typefaceAsset, false);
-            typefaceAsset = typedArray.getString(R.styleable.betterTextViewAttrs_typefaceAsset);
+            typefaceAsset = FONT_DIRECTORY + typedArray.getString(R.styleable.betterTextViewAttrs_typefaceAsset);
         } finally {
             typedArray.recycle();
         }
@@ -69,7 +70,7 @@ public class BetterTextView extends TextView {
      * @param typefaceAsset - Name of the TTF file
      */
     public void setTypefaceAsset(String typefaceAsset) {
-        this.typefaceAsset = typefaceAsset;
+        this.typefaceAsset = FONT_DIRECTORY + typefaceAsset;
         setTypeface();
     }
 

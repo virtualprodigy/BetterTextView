@@ -31,3 +31,5 @@ to set the Type Face via XML.
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
 limitations under the License.
+
+![Project Sample Photo](https://github.com/virtualprodigy/BetterTextView/blob/master/.photo/device-2018-12-04-231723.png)

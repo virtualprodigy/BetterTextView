@@ -1,13 +1,13 @@
 # BetterTextView
 A custom Android TextView with some upgrades. 
 
-#Description
+## Description
 This small library is a slightly upgraded version of Android's standard TextView. It currently features the ability
 to set the Type Face via XML. 
 
 
 
-#Feature Features
+## Feature Features
 ### 1. Automatically sizing the font to fit within a TextView's bound.
 ### 2. Maven distribution
 
@@ -17,7 +17,7 @@ to set the Type Face via XML.
   1. Users can add their typeface view xml
   
   
-#License
+# License
  Copyright 2016 Matthew Butler
 
    Licensed under the Apache License, Version 2.0 (the "License");
